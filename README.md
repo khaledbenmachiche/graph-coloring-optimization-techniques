@@ -21,8 +21,6 @@ This repository implements the following algorithms categorized by their approac
 
 - **Branch and Bound**: Systematically explores the search space with pruning to find the optimal solution
 - **Dynamic Programming**: Solves overlapping subproblems to build up the optimal solution
-- **Integer Linear Programming (ILP)**: Mathematical optimization formulation using binary variables
-- **Backtracking**: Depth-first enumeration of all possible colorings
 
 ### Constructive Heuristics
 
@@ -37,7 +35,6 @@ This repository implements the following algorithms categorized by their approac
 - **Tabu Search**: Employs memory structures to guide the search through the solution space
 - **Genetic Algorithms**: Evolves a population of colorings using selection, crossover, and mutation
 - **Ant Colony Optimization**: Mimics the behavior of ants to find good colorings
-- **Particle Swarm Optimization**: Social behavior-inspired approach for finding solutions
 
 ### Hyper-heuristics
 
@@ -87,16 +84,20 @@ pip install -r requirements.txt
 
 ```
 GraphColoringProblem/
-├── notebooks/                     # Benchmark graph instances
-│   ├── ExactMethods.ipynb
-│   ├── Heuristics.ipynb
-│   └── LocalSearchMetaHeristics.ipynb
-├── benchmarks/                     # Benchmark graph instances
-│   ├── dimacs/
-│   ├── color02/
-│   └── random/
-├── README.md
-├── requirements.txt
+├── notebooks/                     # Jupyter notebooks containing algorithm implementations
+│   ├── exact_methods.ipynb        # Implementation of exact coloring algorithms
+│   ├── heuristics.ipynb           # Implementation of heuristic approaches
+│   ├── local_search.ipynb         # Local search methods and metaheuristics
+│   ├── genetic.ipynb              # Genetic algorithm implementation
+│   └── ant_colony_optimisation.ipynb  # Ant Colony Optimization algorithm
+├── data/                          # Benchmark graph instances
+│   ├── dsjc250.5.col              # DIMACS format graph instance
+│   ├── dsjc500.9.col              # DIMACS format graph instance
+│   ├── dsjr500.1c.col             # DIMACS format graph instance
+│   ├── flat1000_76_0.col          # DIMACS format graph instance
+│   └── r250.5.col                 # DIMACS format graph instance
+├── README.md                      # Project documentation
+├── requirements.txt               # Required Python packages
 ```
 
 ## License
@@ -120,9 +121,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Galinier, P., & Hao, J. K. (1999). Hybrid evolutionary algorithms for graph coloring. Journal of Combinatorial Optimization, 3(4), 379-397.
 - Brélaz, D. (1979). New methods to color the vertices of a graph. Communications of the ACM, 22(4), 251-256.
 - Burke, E. K., et al. (2013). Hyper-heuristics: a survey of the state of the art. Journal of the Operational Research Society, 64(12), 1695-1724.
-
-## Acknowledgments
-
-- Thanks to the research community for developing these algorithms
-- All contributors who helped with implementation and testing
-- The DIMACS challenge for providing benchmark instances
