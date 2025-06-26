@@ -36,12 +36,6 @@ This repository implements the following algorithms categorized by their approac
 - **Genetic Algorithms**: Evolves a population of colorings using selection, crossover, and mutation
 - **Ant Colony Optimization**: Mimics the behavior of ants to find good colorings
 
-### Hyper-heuristics
-
-- **Selection Hyper-heuristic**: Dynamically selects low-level heuristics during the search process
-- **Generation Hyper-heuristic**: Creates new heuristics from components of existing ones
-- **Learning Automata Hyper-heuristic**: Applies reinforcement learning to improve heuristic selection
-- **Online Learning Hyper-heuristic**: Adapts to the problem instance during the search
 
 ## Benchmark Graphs
 
@@ -99,20 +93,6 @@ GraphColoringProblem/
 ├── README.md                      # Project documentation
 ├── requirements.txt               # Required Python packages
 ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## References
 
