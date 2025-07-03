@@ -65,10 +65,10 @@ We provide comprehensive performance metrics including:
 
 ```bash
 # Clone the repository
-git clone https://github.com/khaledbenmachiche/GraphColoringProblem.git
+git clone https://github.com/khaledbenmachiche/graph-coloring-algorithms.git
 
 # Navigate to the directory
-cd GraphColoringProblem
+cd graph-coloring-algorithms
 
 # Install requirements
 pip install -r requirements.txt
