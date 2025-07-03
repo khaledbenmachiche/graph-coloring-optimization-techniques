@@ -1,4 +1,4 @@
-# Graph Coloring Algorithms
+# Graph coloring optimization techniques
 This repository contains a comprehensive collection of algorithms for solving the graph coloring problem, ranging from exact methods to various heuristic approaches.
 
 ## Introduction
@@ -41,19 +41,7 @@ This repository implements the following algorithms categorized by their approac
 
 The repository includes standard benchmark graph instances from:
 - DIMACS Graph Coloring Challenge
-- COLOR02/03/04 Instances
 - Random graphs with various densities
-- Real-world application graphs
-
-## Performance Comparison
-
-We provide comprehensive performance metrics including:
-- Color count (solution quality)
-- Computation time
-- Memory usage
-- Convergence behavior for iterative methods
-- Scalability analysis
-- Statistical performance across multiple runs
 
 ## Getting Started
 
@@ -65,10 +53,10 @@ We provide comprehensive performance metrics including:
 
 ```bash
 # Clone the repository
-git clone https://github.com/khaledbenmachiche/graph-coloring-algorithms.git
+git clone https://github.com/khaledbenmachiche/graph-coloring-optimization-techniques.git
 
 # Navigate to the directory
-cd graph-coloring-algorithms
+cd graph-coloring-optimization-techniques
 
 # Install requirements
 pip install -r requirements.txt
